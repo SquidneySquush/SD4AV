@@ -3,7 +3,7 @@
 import rospy
 import smach
 
-class land(smach.State):
+class RHome(smach.State):
     def __init__(self):
         smach.State.__init__(self, outcomes=['reach_home'])
         self.counter = 0
