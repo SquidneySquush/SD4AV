@@ -18,4 +18,4 @@ class Arm(smach.State):
         if (value > 9):
             return 'Arm_failed'
         else:
-            return 'Armed
+            return 'Armed'
